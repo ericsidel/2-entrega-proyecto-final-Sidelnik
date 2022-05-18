@@ -337,3 +337,21 @@ nav ul li a {
     }
 
 }
+
+.imgMaral{
+    animation-name: img-Maral;
+    animation-duration: 3s;
+    animation-iteration-count:inherit;
+    animation-timing-function: linear;
+
+}
+
+@keyframes img-Maral{
+    from{
+        transform: scale(1);
+    }
+
+    to{ 
+transform: scale(1.1);
+    }
+}
